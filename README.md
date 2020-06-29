@@ -1,0 +1,2 @@
+# DCGAN-CIFAR-10
+入门级DCGAN
