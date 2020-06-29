@@ -17,3 +17,7 @@ D中用全卷积层代替池化层，strided convolutions
 取消全连接层：D中最后的卷积层可以先flatten然后送入一个sigmoid分类器  
 用batchnorm，但是不对D的input layer使用BN  
 在D中所有层的激活函数都是用LeakyReLU  
+
+
+结果：
+前两种图片run了50000个epoch，剩下的种类分别run了大约20000个epoch，图片也上传了
